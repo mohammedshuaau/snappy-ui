@@ -1,6 +1,10 @@
 // Import global styles
 import './styles/globals.css';
 
+// Styles
+export * from './styles/base';
+export * from './styles/animations';
+
 // COMPONENTS
 
 // Data Display

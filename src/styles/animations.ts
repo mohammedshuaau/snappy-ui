@@ -17,7 +17,7 @@ export const scaleIn = {
     'data-[state=closed]:scale-95': '',
 };
 
-export const transitionClasses = {
+export const animationTransitionClasses = {
     'transition-all': '',
     'duration-200': '',
     'ease-out': '',
