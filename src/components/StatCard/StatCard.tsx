@@ -1,9 +1,9 @@
 import React from 'react';
 import { cva, type VariantProps } from 'class-variance-authority';
 import { twMerge } from 'tailwind-merge';
-import Sparkline from '../Sparkline/Sparkline';
-import ProgressCircle from '../ProgressCircle/ProgressCircle';
-import Gauge from '../Gauge/Gauge';
+import {Sparkline} from '../Sparkline/Sparkline';
+import {ProgressCircle} from '../ProgressCircle/ProgressCircle';
+import {Gauge} from '../Gauge/Gauge';
 
 const statCardVariants = cva(
     'rounded-lg p-4 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-sm',

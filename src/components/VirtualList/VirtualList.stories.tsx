@@ -1,6 +1,6 @@
 import React from 'react';
 import type {Meta, StoryObj} from '@storybook/react';
-import VirtualList from './VirtualList';
+import {VirtualList} from './VirtualList';
 
 interface ItemType {
     id: number;

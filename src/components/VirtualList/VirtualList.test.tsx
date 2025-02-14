@@ -1,7 +1,7 @@
 import React from 'react';
 import { act, fireEvent, render, screen } from '@testing-library/react';
 import { vi } from 'vitest';
-import VirtualList from './VirtualList';
+import {VirtualList} from './VirtualList';
 
 describe('VirtualList', () => {
   // Mock items
