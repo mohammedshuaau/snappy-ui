@@ -133,7 +133,7 @@ export interface TimePickerProps
     showDropdown?: boolean;
 }
 
-const TimePicker = React.forwardRef<HTMLInputElement, TimePickerProps>(
+export const TimePicker = React.forwardRef<HTMLInputElement, TimePickerProps>(
     ({
         className,
         variant,
@@ -351,5 +351,3 @@ const TimePicker = React.forwardRef<HTMLInputElement, TimePickerProps>(
 );
 
 TimePicker.displayName = 'TimePicker';
-
-export default TimePicker; 

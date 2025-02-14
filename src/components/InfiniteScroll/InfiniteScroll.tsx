@@ -69,7 +69,7 @@ export interface InfiniteScrollProps extends VariantProps<typeof infiniteScrollV
     className?: string;
 }
 
-const InfiniteScroll = React.forwardRef<HTMLDivElement, InfiniteScrollProps>(
+export const InfiniteScroll = React.forwardRef<HTMLDivElement, InfiniteScrollProps>(
     ({
         children,
         onLoadMore,
@@ -189,5 +189,3 @@ const InfiniteScroll = React.forwardRef<HTMLDivElement, InfiniteScrollProps>(
 );
 
 InfiniteScroll.displayName = 'InfiniteScroll';
-
-export default InfiniteScroll; 

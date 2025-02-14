@@ -1,6 +1,6 @@
 import React from 'react';
 import type {Meta, StoryObj} from '@storybook/react';
-import Calendar, {CalendarEvent} from './Calendar';
+import {Calendar, CalendarEvent} from './Calendar';
 
 const meta = {
     title: 'Advanced/Calendar',

@@ -64,7 +64,7 @@ export interface StatCardProps extends VariantProps<typeof statCardVariants> {
     className?: string;
 }
 
-const StatCard = React.forwardRef<HTMLDivElement, StatCardProps>(
+export const StatCard = React.forwardRef<HTMLDivElement, StatCardProps>(
     ({
         title,
         value,
@@ -169,5 +169,3 @@ const StatCard = React.forwardRef<HTMLDivElement, StatCardProps>(
 );
 
 StatCard.displayName = 'StatCard';
-
-export default StatCard; 

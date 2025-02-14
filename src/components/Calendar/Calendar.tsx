@@ -65,7 +65,7 @@ export interface CalendarProps extends BaseCalendarProps, VariantProps<typeof ca
     showEventDetails?: boolean;
 }
 
-const Calendar = React.forwardRef<HTMLDivElement, CalendarProps>(
+export const Calendar = React.forwardRef<HTMLDivElement, CalendarProps>(
     (
         {
             selected,
@@ -311,5 +311,3 @@ const Calendar = React.forwardRef<HTMLDivElement, CalendarProps>(
 );
 
 Calendar.displayName = 'Calendar';
-
-export default Calendar; 

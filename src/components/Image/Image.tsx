@@ -94,7 +94,7 @@ export interface ImageProps
 // Add this type at the top with other imports
 type HTMLImageElementConstructor = new () => HTMLImageElement;
 
-const Image = React.forwardRef<HTMLImageElement, ImageProps>(
+export const Image = React.forwardRef<HTMLImageElement, ImageProps>(
     ({
         className,
         src,
@@ -246,5 +246,3 @@ const Image = React.forwardRef<HTMLImageElement, ImageProps>(
 );
 
 Image.displayName = 'Image';
-
-export default Image; 

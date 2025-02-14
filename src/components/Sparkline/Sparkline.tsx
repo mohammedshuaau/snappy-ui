@@ -54,7 +54,7 @@ export interface SparklineProps extends VariantProps<typeof sparklineVariants> {
     className?: string;
 }
 
-const Sparkline = React.forwardRef<HTMLDivElement, SparklineProps>(
+export const Sparkline = React.forwardRef<HTMLDivElement, SparklineProps>(
     ({
         data,
         showArea = false,
@@ -111,5 +111,3 @@ const Sparkline = React.forwardRef<HTMLDivElement, SparklineProps>(
 );
 
 Sparkline.displayName = 'Sparkline';
-
-export default Sparkline; 

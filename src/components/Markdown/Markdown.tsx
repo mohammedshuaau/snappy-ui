@@ -54,7 +54,7 @@ export interface MarkdownProps
     sx?: React.CSSProperties;
 }
 
-const Markdown = React.forwardRef<HTMLDivElement, MarkdownProps>(
+export const Markdown = React.forwardRef<HTMLDivElement, MarkdownProps>(
     ({
         content,
         allowHtml = false,
@@ -114,5 +114,3 @@ const Markdown = React.forwardRef<HTMLDivElement, MarkdownProps>(
 );
 
 Markdown.displayName = 'Markdown';
-
-export default Markdown; 

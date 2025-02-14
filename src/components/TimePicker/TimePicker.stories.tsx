@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import type {Meta, StoryObj} from '@storybook/react';
 import {parse, set} from 'date-fns';
-import TimePicker from './TimePicker';
+import {TimePicker} from './TimePicker';
 
 const meta = {
     title: 'Form/TimePicker',

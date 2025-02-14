@@ -1,6 +1,6 @@
 import {render} from '@testing-library/react';
 import {vi} from 'vitest';
-import CodeEditor from './CodeEditor';
+import {CodeEditor} from './CodeEditor';
 
 // Mock all CodeMirror imports
 vi.mock('@codemirror/state', () => ({

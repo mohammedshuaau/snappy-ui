@@ -1,5 +1,5 @@
 import type {Meta, StoryObj} from '@storybook/react';
-import Video from './Video';
+import {Video} from './Video';
 
 const meta = {
     title: 'Media/Video',

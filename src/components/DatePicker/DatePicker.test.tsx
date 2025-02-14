@@ -1,6 +1,6 @@
 import {fireEvent, render, screen} from '@testing-library/react';
 import {describe, expect, it, vi} from 'vitest';
-import DatePicker from './DatePicker';
+import {DatePicker} from './DatePicker';
 
 describe('DatePicker', () => {
     it('renders with default props', () => {

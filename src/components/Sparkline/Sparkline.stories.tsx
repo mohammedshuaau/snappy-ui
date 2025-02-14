@@ -1,5 +1,5 @@
 import type {Meta, StoryObj} from '@storybook/react';
-import Sparkline from './Sparkline';
+import {Sparkline} from './Sparkline';
 
 const meta = {
     title: 'Charts/Sparkline',

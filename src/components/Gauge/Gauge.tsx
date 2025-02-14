@@ -62,7 +62,7 @@ export interface GaugeProps extends VariantProps<typeof gaugeVariants> {
     className?: string;
 }
 
-const Gauge = React.forwardRef<HTMLDivElement, GaugeProps>(
+export const Gauge = React.forwardRef<HTMLDivElement, GaugeProps>(
     ({
         value,
         min = 0,
@@ -158,5 +158,3 @@ const Gauge = React.forwardRef<HTMLDivElement, GaugeProps>(
 );
 
 Gauge.displayName = 'Gauge';
-
-export default Gauge; 

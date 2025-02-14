@@ -1,6 +1,6 @@
 import React from 'react';
 import {render} from '@testing-library/react';
-import Sparkline from './Sparkline';
+import {Sparkline} from './Sparkline';
 
 // Mock ResizeObserver
 class ResizeObserverMock {

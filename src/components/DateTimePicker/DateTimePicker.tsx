@@ -189,7 +189,7 @@ export interface DateTimePickerProps
     placeholder?: string;
 }
 
-const DateTimePicker = React.forwardRef<HTMLDivElement, DateTimePickerProps>(
+export const DateTimePicker = React.forwardRef<HTMLDivElement, DateTimePickerProps>(
     ({
         className,
         variant,
@@ -483,5 +483,3 @@ const DateTimePicker = React.forwardRef<HTMLDivElement, DateTimePickerProps>(
 );
 
 DateTimePicker.displayName = 'DateTimePicker';
-
-export default DateTimePicker; 

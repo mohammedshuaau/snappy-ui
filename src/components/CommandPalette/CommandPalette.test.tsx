@@ -1,6 +1,6 @@
 import {fireEvent, render, screen} from '@testing-library/react';
 import {vi} from 'vitest';
-import CommandPalette from './CommandPalette';
+import {CommandPalette} from './CommandPalette';
 import {Settings} from 'lucide-react';
 
 // Mock cmdk (Command Menu)

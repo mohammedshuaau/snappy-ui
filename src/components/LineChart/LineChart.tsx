@@ -88,7 +88,7 @@ const getVariantColor = (variant: string, isDark: boolean) => {
     }
 };
 
-const LineChart = React.forwardRef<HTMLDivElement, LineChartProps>(
+export const LineChart = React.forwardRef<HTMLDivElement, LineChartProps>(
     ({
         data,
         series,
@@ -216,5 +216,3 @@ const LineChart = React.forwardRef<HTMLDivElement, LineChartProps>(
 );
 
 LineChart.displayName = 'LineChart';
-
-export default LineChart; 

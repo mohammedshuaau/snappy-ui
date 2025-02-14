@@ -93,7 +93,7 @@ export interface KanbanBoardProps extends VariantProps<typeof kanbanBoardVariant
     className?: string;
 }
 
-const KanbanBoard = React.forwardRef<HTMLDivElement, KanbanBoardProps>(
+export const KanbanBoard = React.forwardRef<HTMLDivElement, KanbanBoardProps>(
     ({
         columns,
         onCardMove,
@@ -313,5 +313,3 @@ const KanbanBoard = React.forwardRef<HTMLDivElement, KanbanBoardProps>(
 );
 
 KanbanBoard.displayName = 'KanbanBoard';
-
-export default KanbanBoard; 

@@ -1,6 +1,6 @@
 import React from 'react';
 import {render} from '@testing-library/react';
-import StatCard from './StatCard';
+import {StatCard} from './StatCard';
 
 // Mock ResizeObserver
 class ResizeObserverMock {

@@ -1,6 +1,6 @@
 import {render, screen} from '@testing-library/react';
 import {describe, expect, it, vi} from 'vitest';
-import PieChart from './PieChart';
+import {PieChart} from './PieChart';
 import {type DataPoint} from '../../types/chart.types';
 
 // Mock ResizeObserver

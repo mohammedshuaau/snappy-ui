@@ -1,6 +1,6 @@
 import { fireEvent, render, screen, waitFor } from '@testing-library/react';
 import { vi } from 'vitest';
-import TimePicker from './TimePicker';
+import {TimePicker} from './TimePicker';
 import { set } from 'date-fns';
 
 describe('TimePicker', () => {

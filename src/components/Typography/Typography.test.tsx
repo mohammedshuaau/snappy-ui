@@ -1,6 +1,6 @@
 import {render, screen} from '@testing-library/react';
 import {describe, expect, it} from 'vitest';
-import Typography from './Typography';
+import {Typography} from './Typography';
 
 describe('Typography', () => {
     const baseClasses = ['text-slate-900', 'dark:text-slate-100'];

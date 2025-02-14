@@ -90,7 +90,7 @@ export interface ResizablePanelProps extends VariantProps<typeof resizablePanelV
     className?: string;
 }
 
-const ResizablePanel = React.forwardRef<HTMLDivElement, ResizablePanelProps>(
+export const ResizablePanel = React.forwardRef<HTMLDivElement, ResizablePanelProps>(
     ({
         children,
         initialSize = 200,
@@ -209,5 +209,3 @@ const ResizablePanel = React.forwardRef<HTMLDivElement, ResizablePanelProps>(
 );
 
 ResizablePanel.displayName = 'ResizablePanel';
-
-export default ResizablePanel; 

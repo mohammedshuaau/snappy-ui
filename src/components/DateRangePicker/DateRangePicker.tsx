@@ -167,7 +167,7 @@ export interface DateRangePickerProps
 
 const WEEKDAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
-const DateRangePicker = React.forwardRef<HTMLDivElement, DateRangePickerProps>(
+export const DateRangePicker = React.forwardRef<HTMLDivElement, DateRangePickerProps>(
     ({
         className,
         variant,
@@ -419,5 +419,3 @@ const DateRangePicker = React.forwardRef<HTMLDivElement, DateRangePickerProps>(
 );
 
 DateRangePicker.displayName = 'DateRangePicker';
-
-export default DateRangePicker; 

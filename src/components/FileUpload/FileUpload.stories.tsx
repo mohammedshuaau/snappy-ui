@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 import { FormProvider, useForm } from 'react-hook-form';
 
-import FileUpload from './FileUpload';
+import {FileUpload} from './FileUpload';
 
 const meta = {
     title: 'Form/FileUpload',

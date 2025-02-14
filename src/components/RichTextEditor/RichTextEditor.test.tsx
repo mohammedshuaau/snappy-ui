@@ -1,6 +1,6 @@
 import {render} from '@testing-library/react';
 import {vi} from 'vitest';
-import RichTextEditor from './RichTextEditor';
+import {RichTextEditor} from './RichTextEditor';
 
 // Mock the useEditor hook from TipTap
 vi.mock('@tiptap/react', () => ({

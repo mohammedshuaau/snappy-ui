@@ -1,5 +1,5 @@
 import type {Meta, StoryObj} from '@storybook/react';
-import CodeEditor from './CodeEditor';
+import {CodeEditor} from './CodeEditor';
 
 const meta = {
     title: 'Advanced/CodeEditor',

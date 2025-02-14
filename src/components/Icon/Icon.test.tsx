@@ -1,6 +1,6 @@
 import {render, screen} from '@testing-library/react';
 import {describe, expect, it, vi} from 'vitest';
-import Icon from './Icon';
+import {Icon} from './Icon';
 
 // Mock console.warn to prevent warnings in tests
 const originalWarn = console.warn;

@@ -1,6 +1,6 @@
 import {fireEvent, render} from '@testing-library/react';
 import {vi} from 'vitest';
-import Image from './Image';
+import {Image} from './Image';
 
 // Mock IntersectionObserver
 const mockIntersectionObserver = vi.fn();

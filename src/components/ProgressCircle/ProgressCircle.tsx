@@ -50,7 +50,7 @@ export interface ProgressCircleProps extends VariantProps<typeof progressCircleV
     className?: string;
 }
 
-const ProgressCircle = React.forwardRef<HTMLDivElement, ProgressCircleProps>(
+export const ProgressCircle = React.forwardRef<HTMLDivElement, ProgressCircleProps>(
     ({
         value,
         thickness = 8,
@@ -132,5 +132,3 @@ const ProgressCircle = React.forwardRef<HTMLDivElement, ProgressCircleProps>(
 );
 
 ProgressCircle.displayName = 'ProgressCircle';
-
-export default ProgressCircle; 

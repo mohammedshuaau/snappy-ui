@@ -1,6 +1,6 @@
 import type {Meta, StoryObj} from '@storybook/react';
 import {FormProvider, useForm} from 'react-hook-form';
-import RichTextEditor from './RichTextEditor';
+import {RichTextEditor} from './RichTextEditor';
 
 const meta = {
     title: 'Form/RichTextEditor',

@@ -1,6 +1,6 @@
 import {render} from '@testing-library/react';
 import {describe, expect, it} from 'vitest';
-import Heatmap from './Heatmap';
+import {Heatmap} from './Heatmap';
 import {type HeatmapData} from '../../types/chart.types';
 
 describe('Heatmap', () => {

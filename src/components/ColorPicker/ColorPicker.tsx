@@ -110,7 +110,7 @@ export interface ColorPickerProps
     sx?: { [key: string]: any };
 }
 
-const ColorPicker = React.forwardRef<HTMLDivElement, ColorPickerProps>(
+export const ColorPicker = React.forwardRef<HTMLDivElement, ColorPickerProps>(
     ({
         className,
         variant,
@@ -283,5 +283,3 @@ const ColorPicker = React.forwardRef<HTMLDivElement, ColorPickerProps>(
 );
 
 ColorPicker.displayName = 'ColorPicker';
-
-export default ColorPicker; 

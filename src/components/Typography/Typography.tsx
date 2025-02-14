@@ -128,7 +128,7 @@ export interface TypographyProps extends VariantProps<typeof typographyVariants>
     html?: string;
 }
 
-const Typography = React.forwardRef(function Typography<C extends React.ElementType = 'p'>(
+export const Typography = React.forwardRef(function Typography<C extends React.ElementType = 'p'>(
     props: PolymorphicComponentPropWithRef<C, TypographyProps>,
     ref: React.Ref<any>
 ) {
@@ -184,5 +184,3 @@ const Typography = React.forwardRef(function Typography<C extends React.ElementT
 });
 
 Typography.displayName = 'Typography';
-
-export default Typography; 

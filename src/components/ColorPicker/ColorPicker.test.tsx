@@ -1,7 +1,7 @@
 import {fireEvent, render, screen} from '@testing-library/react';
 import {describe, expect, it, vi} from 'vitest';
 import {FormProvider, useForm} from 'react-hook-form';
-import ColorPicker from './ColorPicker';
+import {ColorPicker} from './ColorPicker';
 
 // Default colors from the component
 const DEFAULT_COLORS = [

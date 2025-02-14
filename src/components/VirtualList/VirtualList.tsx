@@ -52,7 +52,7 @@ export interface VirtualListProps<T> extends VariantProps<typeof virtualListVari
     className?: string;
 }
 
-function VirtualList<T>({
+export function VirtualList<T>({
     items,
     renderItem,
     height,
@@ -211,4 +211,4 @@ function VirtualList<T>({
     );
 }
 
-export default VirtualList; 
+VirtualList.displayName = 'VirtualList';

@@ -188,7 +188,7 @@ export interface RichTextEditorProps
     dir?: 'ltr' | 'rtl';
 }
 
-const RichTextEditor = React.forwardRef<HTMLDivElement, RichTextEditorProps>(
+export const RichTextEditor = React.forwardRef<HTMLDivElement, RichTextEditorProps>(
     ({
         className,
         variant,
@@ -439,5 +439,3 @@ const RichTextEditor = React.forwardRef<HTMLDivElement, RichTextEditorProps>(
 );
 
 RichTextEditor.displayName = 'RichTextEditor';
-
-export default RichTextEditor; 

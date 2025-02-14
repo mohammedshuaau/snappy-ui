@@ -1,6 +1,6 @@
 import {render} from '@testing-library/react';
 import {describe, expect, it, vi} from 'vitest';
-import Video from './Video';
+import {Video} from './Video';
 
 // Mock Plyr
 vi.mock('plyr', () => {

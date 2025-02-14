@@ -1,5 +1,5 @@
 import type {Meta, StoryObj} from '@storybook/react';
-import CommandPalette from './CommandPalette';
+import {CommandPalette} from './CommandPalette';
 import {Calendar, FileText, Github, HelpCircle, LogOut, Mail, Moon, Search, Settings, User,} from 'lucide-react';
 
 const meta = {

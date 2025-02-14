@@ -1,6 +1,6 @@
 import {fireEvent, render, screen} from '@testing-library/react';
 import {vi} from 'vitest';
-import FileUpload from './FileUpload';
+import {FileUpload} from './FileUpload';
 
 describe('FileUpload', () => {
   const mockOnChange = vi.fn();

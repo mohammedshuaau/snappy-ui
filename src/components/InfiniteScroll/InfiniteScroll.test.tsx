@@ -1,6 +1,6 @@
 import {act, fireEvent, render, screen} from '@testing-library/react';
 import {vi} from 'vitest';
-import InfiniteScroll from './InfiniteScroll';
+import {InfiniteScroll} from './InfiniteScroll';
 
 describe('InfiniteScroll', () => {
   const mockLoadMore = vi.fn().mockResolvedValue(undefined);

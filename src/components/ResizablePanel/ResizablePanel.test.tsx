@@ -1,6 +1,6 @@
 import { fireEvent, render, screen } from '@testing-library/react';
 import { vi } from 'vitest';
-import ResizablePanel from './ResizablePanel';
+import {ResizablePanel} from './ResizablePanel';
 
 describe('ResizablePanel', () => {
   const mockContent = <div>Panel Content</div>;

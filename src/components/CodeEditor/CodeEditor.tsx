@@ -118,7 +118,7 @@ export interface CodeEditorProps extends VariantProps<typeof codeEditorVariants>
     className?: string;
 }
 
-const CodeEditor = React.forwardRef<HTMLDivElement, CodeEditorProps>(
+export const CodeEditor = React.forwardRef<HTMLDivElement, CodeEditorProps>(
     ({
         value = '',
         onChange,
@@ -222,5 +222,3 @@ const CodeEditor = React.forwardRef<HTMLDivElement, CodeEditorProps>(
 );
 
 CodeEditor.displayName = 'CodeEditor';
-
-export default CodeEditor; 

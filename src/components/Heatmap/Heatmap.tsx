@@ -78,7 +78,7 @@ const getColorScale = (value: number, min: number, max: number, variant: string,
     }
 };
 
-const Heatmap = React.forwardRef<HTMLDivElement, HeatmapProps>(
+export const Heatmap = React.forwardRef<HTMLDivElement, HeatmapProps>(
     ({
         data,
         minValue,
@@ -185,5 +185,3 @@ const Heatmap = React.forwardRef<HTMLDivElement, HeatmapProps>(
 );
 
 Heatmap.displayName = 'Heatmap';
-
-export default Heatmap; 

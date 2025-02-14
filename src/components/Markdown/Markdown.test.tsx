@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Markdown from './Markdown';
+import {Markdown} from './Markdown';
 
 describe('Markdown', () => {
   const basicContent = '# Hello\nThis is a **bold** text';

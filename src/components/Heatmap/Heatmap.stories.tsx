@@ -1,5 +1,5 @@
 import type {Meta, StoryObj} from '@storybook/react';
-import Heatmap from './Heatmap';
+import {Heatmap} from './Heatmap';
 
 const meta = {
     title: 'Charts/Heatmap',

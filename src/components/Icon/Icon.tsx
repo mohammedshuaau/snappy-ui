@@ -49,7 +49,7 @@ export interface IconProps
     sx?: { [key: string]: any };
 }
 
-const Icon = React.forwardRef<SVGSVGElement, IconProps>(
+export const Icon = React.forwardRef<SVGSVGElement, IconProps>(
     ({
         className,
         variant,
@@ -98,5 +98,3 @@ const Icon = React.forwardRef<SVGSVGElement, IconProps>(
 );
 
 Icon.displayName = 'Icon';
-
-export default Icon; 

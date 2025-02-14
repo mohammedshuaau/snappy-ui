@@ -87,7 +87,7 @@ export interface FileUploadProps
     sx?: { [key: string]: any };
 }
 
-const FileUpload = React.forwardRef<HTMLDivElement, FileUploadProps>(
+export const FileUpload = React.forwardRef<HTMLDivElement, FileUploadProps>(
     ({
         className,
         variant,
@@ -378,5 +378,3 @@ const FileUpload = React.forwardRef<HTMLDivElement, FileUploadProps>(
 );
 
 FileUpload.displayName = 'FileUpload';
-
-export default FileUpload; 

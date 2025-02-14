@@ -2,7 +2,7 @@ import {useState} from 'react';
 import type {Meta, StoryObj} from '@storybook/react';
 import {FormProvider, useForm} from 'react-hook-form';
 
-import ColorPicker from './ColorPicker';
+import {ColorPicker} from './ColorPicker';
 
 const meta = {
     title: 'Form/ColorPicker',

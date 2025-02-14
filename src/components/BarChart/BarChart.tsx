@@ -92,7 +92,7 @@ const getVariantColor = (variant: string, isDark: boolean) => {
     }
 };
 
-const BarChart = React.forwardRef<HTMLDivElement, BarChartProps>(
+export const BarChart = React.forwardRef<HTMLDivElement, BarChartProps>(
     ({
         data,
         series,
@@ -223,5 +223,3 @@ const BarChart = React.forwardRef<HTMLDivElement, BarChartProps>(
 );
 
 BarChart.displayName = 'BarChart';
-
-export default BarChart; 

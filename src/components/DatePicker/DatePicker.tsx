@@ -131,7 +131,7 @@ export interface DatePickerProps
     sx?: { [key: string]: any };
 }
 
-const DatePicker = React.forwardRef<HTMLInputElement, DatePickerProps>(
+export const DatePicker = React.forwardRef<HTMLInputElement, DatePickerProps>(
     ({
         className,
         variant,
@@ -348,5 +348,3 @@ const DatePicker = React.forwardRef<HTMLInputElement, DatePickerProps>(
 );
 
 DatePicker.displayName = 'DatePicker';
-
-export default DatePicker; 

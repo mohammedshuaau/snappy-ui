@@ -93,7 +93,7 @@ export interface VideoProps
     sx?: { [key: string]: any };
 }
 
-const Video = React.forwardRef<HTMLDivElement, VideoProps>(
+export const Video = React.forwardRef<HTMLDivElement, VideoProps>(
     ({
         className,
         variant,
@@ -191,5 +191,3 @@ const Video = React.forwardRef<HTMLDivElement, VideoProps>(
 );
 
 Video.displayName = 'Video';
-
-export default Video; 

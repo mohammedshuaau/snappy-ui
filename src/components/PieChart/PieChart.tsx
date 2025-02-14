@@ -82,7 +82,7 @@ const getVariantColor = (variant: string, isDark: boolean) => {
     }
 };
 
-const PieChart = React.forwardRef<HTMLDivElement, PieChartProps>(
+export const PieChart = React.forwardRef<HTMLDivElement, PieChartProps>(
     ({
         data,
         innerRadius = 0,
@@ -192,5 +192,3 @@ const PieChart = React.forwardRef<HTMLDivElement, PieChartProps>(
 );
 
 PieChart.displayName = 'PieChart';
-
-export default PieChart; 

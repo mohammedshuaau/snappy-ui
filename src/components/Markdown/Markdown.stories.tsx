@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import Markdown from './Markdown';
+import {Markdown} from './Markdown';
 import { CustomStyle } from '../../types/custom-style.types';
 
 const meta = {

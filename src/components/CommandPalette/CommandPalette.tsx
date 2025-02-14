@@ -73,7 +73,7 @@ export interface CommandPaletteProps extends VariantProps<typeof commandPaletteV
     className?: string;
 }
 
-const CommandPalette = React.forwardRef<HTMLDivElement, CommandPaletteProps>(
+export const CommandPalette = React.forwardRef<HTMLDivElement, CommandPaletteProps>(
     ({
         items,
         open,
@@ -235,5 +235,3 @@ const CommandPalette = React.forwardRef<HTMLDivElement, CommandPaletteProps>(
 );
 
 CommandPalette.displayName = 'CommandPalette';
-
-export default CommandPalette; 

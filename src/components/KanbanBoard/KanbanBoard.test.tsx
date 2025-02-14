@@ -1,6 +1,6 @@
 import {fireEvent, render, screen} from '@testing-library/react';
 import {vi} from 'vitest';
-import KanbanBoard from './KanbanBoard';
+import {KanbanBoard} from './KanbanBoard';
 
 describe('KanbanBoard', () => {
   const mockColumns = [

@@ -1,6 +1,6 @@
 import {render, screen} from '@testing-library/react';
 import {describe, expect, it, vi} from 'vitest';
-import LineChart from './LineChart';
+import {LineChart} from './LineChart';
 import {type DataPoint, type DataSeries} from '../../types/chart.types';
 
 // Mock ResizeObserver

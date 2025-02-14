@@ -81,7 +81,7 @@ export interface AudioProps
     sx?: { [key: string]: any };
 }
 
-const Audio = React.forwardRef<HTMLDivElement, AudioProps>(
+export const Audio = React.forwardRef<HTMLDivElement, AudioProps>(
     ({
         className,
         variant,
@@ -171,5 +171,3 @@ const Audio = React.forwardRef<HTMLDivElement, AudioProps>(
 );
 
 Audio.displayName = 'Audio';
-
-export default Audio; 
