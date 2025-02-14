@@ -22,6 +22,7 @@ const config: StorybookConfig = {
     builder: '@storybook/builder-vite',
   },
   async viteFinal(config) {
+    config.base = "/snappy-ui/";
     return {
       ...config,
       plugins: [...(config.plugins || [])],
