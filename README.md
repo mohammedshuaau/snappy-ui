@@ -219,4 +219,4 @@ Snap Kit is [MIT licensed](./LICENSE).
 - Icons from [Tabler Icons](https://tabler-icons.io/)
 - Date handling by [date-fns](https://date-fns.org/)
 - Charts powered by [Recharts](https://recharts.org/)
-- Toast powered by [Recharts](https://www.npmjs.com/package/react-toastify)
+- Toast powered by [React Toastify](https://www.npmjs.com/package/react-toastify)
