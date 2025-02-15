@@ -22,9 +22,12 @@ const config: StorybookConfig = {
     builder: '@storybook/builder-vite',
   },
   async viteFinal(config) {
-    config.base = "/snappy-ui/";
+    // Get the base URL from environment variable or use default for local development
+    const baseUrl = process.env.STORYBOOK_BASE_URL || '/';
+    
     return {
       ...config,
+      base: baseUrl,
       plugins: [...(config.plugins || [])],
       css: {
         postcss: {

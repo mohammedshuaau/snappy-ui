@@ -34,9 +34,10 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Build Storybook
-        run: yarn build-storybook --docs --base-url /snappy-ui/
+        run: yarn build-storybook
         env:
           NODE_OPTIONS: --max_old_space_size=4096
+          STORYBOOK_BASE_URL: /snappy-ui/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
