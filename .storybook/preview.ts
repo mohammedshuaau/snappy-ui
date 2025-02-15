@@ -7,7 +7,7 @@ const preview: Preview = {
     controls: {
       matchers: {
         color: /(background|color)$/i,
-        date: /Date$/,
+        date: /Date$/i,
       },
     },
     darkMode: {
@@ -16,6 +16,12 @@ const preview: Preview = {
       stylePreview: true,
       classTarget: 'html',
     },
+    docs: {
+      story: {
+        inline: true,
+      },
+    },
+    staticDirs: ['../public'],
   },
 };
 
