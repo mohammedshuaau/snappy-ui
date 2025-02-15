@@ -7,6 +7,15 @@ A modern, fully-featured React component library built with TypeScript and Tailw
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-Powered-06B6D4.svg)](https://tailwindcss.com/)
 
+## 📚 Documentation
+
+For detailed documentation, live examples, and usage guidelines for all components, check out our <a href="https://mohammedshuaau.github.io/snappy-ui/" target="_blank" rel="noopener noreferrer">Storybook</a>. Each component includes:
+- Interactive examples
+- Props API reference
+- Usage guidelines
+- Customization options
+- Accessibility notes
+
 ## ✨ Features
 
 - 📦 70+ Production-Ready Components
@@ -162,39 +171,6 @@ Snap Kit components can be customized using:
 // Using className
 <Card className="shadow-lg hover:shadow-xl" />
 ```
-
-## 📖 Documentation
-
-For detailed documentation and examples, check out our [Storybook](https://your-storybook-url.com).
-
-Each component includes:
-- Live examples
-- Props API
-- Usage guidelines
-- Accessibility notes
-- Custom styling examples
-
-## 🛠️ Utils, Hooks & Context
-
-### Utility Functions
-- 📅 Date Utils (formatting, parsing, manipulation)
-
-### Custom Hooks
-- 🖱️ useClickOutside
-- ⏱️ useDebounce
-- 🔍 useFocus
-- 📝 useForm
-- 🖱️ useHover
-- 🆔 useId
-- ⌨️ useKeyboard
-- 🤔 useMemoCompare
-- 📜 useScroll
-- 📱 useWindowSize
-
-### Context
-- 📐 BreakpointContext
-- 📐 DirectionContext
-- 📐 MediaQueryContext
 
 ## 🤝 Contributing
 
